@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Page Created By Ankit</title>
+        <link rel="stylesheet" href="Survey_style.css">
+    </head>
+    <body>
+        <h1>Ankit Survey Form</h1>
+        <form id="Form">
+            <div class="form-control">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" id="name" placeholder="Enter Your Name"/>
+            </div>
+            <div class="form-control">
+                <label for="email" id="label-email">Email</label>
+                <input type="email" id="email" placeholder="Enter YOur Email"/>
+            </div>
+            <div class="form-control">
+                <label for="age" id="label-age">Age</label>
+                <input type="text"
+                       id="age"
+                       placeholder="Enter your age" />
+            <div class="form-control">
+                <label for="role" id="label-role">Which option is best describes you?</label>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label>Ankit is Smart?</label>
+                <label for="recommed-1"> <input type="radio" id="recommed-1" name="recommed">Yes</input</label>
+                <label for="recommed-2"> <input type="radio" id="recommed-2" name="recommed">No</input></label>
+                <label for="recommed-3"> <input type="radio" id="recommed-3" name="recommed">MayBe</input></label>
+            </div>
+            <div class="form-control">
+                <label>Language and Frameworks Known
+                    <small>(Check all that apply)</small>
+                </label>
+                <label for="inp-1"><input type="checkbox"name="imp">C</input></label>
+                <label for="inp-2"><input type="checkbox"name="imp">C++</input></label>
+                <label for="inp-3"><input type="checkbox"name="imp">C#</input></label>
+                <label for="inp-4"><input type="checkbox"name="imp">Java</input></label>
+                <label for="inp-5"><input type="checkbox"name="imp">Python</input></label>
+                <label for="inp-6"><input type="checkbox"name="imp">HTML</input></label>
+                <label for="inp-7"><input type="checkbox"name="imp">CSS</input></label>
+                <label for="inp-8"><input type="checkbox"name="imp">JavaScript</input></label>
+                <label for="inp-9"><input type="checkbox"name="imp">Dart</input></label>
+                <label for="inp-10"><input type="checkbox"name="imp">Flutter</input></label>
+                <label for="inp-11"><input type="checkbox"name="imp">PHP</input></label>
+                <label for="inp-12"><input type="checkbox"name="imp">Ruby</input></label>
+                <label for="inp-13"><input type="checkbox"name="imp">React</input></label>
+                <label for="inp-14"><input type="checkbox"name="imp">XML</input></label>
+                <label for="inp-15"><input type="checkbox"name="imp">Angular</input></label>
+                <label for="inp-16"><input type="checkbox"name="imp">Django</input></label>
+                <label for="inp-17"><input type="checkbox"name="imp">Spring</input></label>
+                <label for="inp-18"><input type="checkbox"name="imp">Other</input></label>
+            </div>   
+            <div class="form-control">
+                <label for="comment">Any Comments or Suggestions</label>
+                <textarea name="comment" id="comment" placeholder="Enter Your Comment here"></textarea>
+            </div>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </body>
+</html>
